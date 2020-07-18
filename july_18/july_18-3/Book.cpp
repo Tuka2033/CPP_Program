@@ -42,7 +42,7 @@ char* cBook::getName()
 {
 	return name;
 }
-float cBook::getPrise()
+float cBook::getPrice()
 {
 	return Price;
 }

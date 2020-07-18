@@ -15,5 +15,5 @@ public:
 	void setName(const char*);
 	void setPrise(float);
 	char* getName();
-	float getPrise();
+	float getPrice();
 };

@@ -1,3 +1,5 @@
 ﻿  main.cpp
-D:\CPP Program\CPP_Program\july_18\july_18-3\main.cpp(3,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\CPP Program\CPP_Program\july_18\july_18-3\main.cpp(10,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\CPP Program\CPP_Program\july_18\july_18-3\main.cpp(13,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\CPP Program\CPP_Program\july_18\july_18-3\main.cpp(16,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
   july_18-3.vcxproj -> D:\CPP Program\CPP_Program\july_18\Debug\july_18-3.exe

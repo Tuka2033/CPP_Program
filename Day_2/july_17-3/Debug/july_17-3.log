@@ -1,0 +1,6 @@
+﻿  Account.cpp
+  main.cpp
+D:\CPP Program\Day_2\july_17-3\main.cpp(3,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\CPP Program\Day_2\july_17-3\main.cpp(6,43): warning C4305: 'argument': truncation from '__int64' to 'float'
+  Generating Code...
+  july_17-3.vcxproj -> D:\CPP Program\Day_2\Debug\july_17-3.exe

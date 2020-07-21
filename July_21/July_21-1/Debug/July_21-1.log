@@ -1,0 +1,5 @@
+﻿  cEmployee.cpp
+  main.cpp
+D:\CPP Program\CPP_Program\July_21\July_21-1\main.cpp(3,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  July_21-1.vcxproj -> D:\CPP Program\CPP_Program\July_21\Debug\July_21-1.exe

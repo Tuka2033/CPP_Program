@@ -41,26 +41,26 @@ cComplex cComplex:: operator-(const cComplex& obj)
 }
 cComplex cComplex:: operator++()
 {
-	++real;
-	++img;
+	this->real = ++real;
+	this->img = ++img;
 	return *this;
 }
 cComplex cComplex:: operator--()
 {
-	--real;
-	--img;
+	this->real = --real;
+	this->img = --img;
 	return *this;
 }
 cComplex cComplex:: operator++(int)
 {
-	real++;
-	img++;
+	this->real = this->real++;
+	this->img = this->img++;
 	return *this;
 }
 cComplex cComplex:: operator--(int)
 {
-	real--;
-	img--;
+	this->real= this->real--;
+	this->img= this->img--;
 	return *this;
 }
 void cComplex::display()

@@ -5,8 +5,10 @@ int main()
 	c1.display();
 	cComplex c2(-1, 2);
 	c2.display();
+	cComplex c4(2, 2);
+	c4.display();
 	cComplex c3;
-	c3 = c1 + c2;
+	c3 = c1 + c2+c4;
 	c3.display();
 	++c3;
 	c3.display();

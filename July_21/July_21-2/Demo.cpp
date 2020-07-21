@@ -1,5 +1,5 @@
 #include"Demo.h"
-cDemo::cDemo(int &w,int k):p(w),i(k)
+cDemo::cDemo(int k):i(k),p(i)
 {
     //cout << p;
 }

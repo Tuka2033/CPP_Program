@@ -3,8 +3,8 @@ using namespace std;
 class cDemo
 {
 	const int i;
-	int& p;
+	const int& p;
 public:
-	cDemo(int&,int);
+	cDemo(int);
 	void Display();
 };

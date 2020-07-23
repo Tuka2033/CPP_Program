@@ -19,8 +19,11 @@ cString::cString(const cString &s)
 }
 void cString::Accept()
 {
-	name = new char;
-	cin >> name;
+	char nm[50];
+	cin >> nm;
+	len = strlen(nm);
+	name = new char[len + 1];
+	strcpy(name, nm);
 }
 void cString::Display()
 {

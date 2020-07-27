@@ -1,7 +1,6 @@
 #include"cal.h"
 calculator::calculator()
 {
-
 }
 calculator::calculator(int x,int y)
 {
@@ -9,7 +8,6 @@ calculator::calculator(int x,int y)
  m= math1::mul(x,y);
  a= math2::add(x,y);
  s= math2::sub(x,y);
-	
 }
 void calculator::Display()
 {

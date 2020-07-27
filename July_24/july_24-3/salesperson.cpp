@@ -4,7 +4,7 @@ cSalesPerson::cSalesPerson()
 	totalSales=0;
 	comm=0;
 }
-cSalesPerson::cSalesPerson(const char* n, const char* a, const char* c, int pi, const char* ca, const char* cc, int cpi, int dd, int mm, int yy, float sal, int sale, float cm) :cEmployee(n, a, c, pi, ca, cc, cpi, dd, mm, yy, sal)
+cSalesPerson::cSalesPerson(const char* n, const char* a, const char* c,	int pi, const char* ca, const char* cc, int cpi, int dd, int mm, int yy, float sal, int sale, float cm) :cEmployee(n, a, c, pi, ca, cc, cpi, dd, mm, yy, sal)
 {
 	totalSales = sale;
 	comm = cm;

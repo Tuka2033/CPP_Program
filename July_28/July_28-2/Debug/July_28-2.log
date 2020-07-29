@@ -1,0 +1,8 @@
+﻿  Employee.cpp
+  main.cpp
+  salesPerson.cpp
+D:\CPP Program\CPP_Program\July_28\July_28-2\salesPerson.cpp(32,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  wageEmp.cpp
+D:\CPP Program\CPP_Program\July_28\July_28-2\wageEmp.cpp(32,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  July_28-2.vcxproj -> D:\CPP Program\CPP_Program\July_28\Debug\July_28-2.exe

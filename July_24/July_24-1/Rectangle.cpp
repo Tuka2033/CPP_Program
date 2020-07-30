@@ -11,7 +11,7 @@ cReactangle::cReactangle(float ln, float br)
 }
 void cReactangle::calculateArea()
 {
-	float area;
+    float area;
 	area = length* breadth;
 	cout << "\n\nArea of Rectangle is::" << area;
 }

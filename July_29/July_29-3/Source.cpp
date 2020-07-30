@@ -8,7 +8,7 @@ int main()
     cout << "Num2 : " << num2 << endl;
 
     double num3 = 10.5;
-    //int num2 = ( int )num1; //C-Style
+    //int num2 = ( int )num3; //C-Style
     int num4 = static_cast<int>(num3); //C++ Style
     cout << "Num2 : " << num4 << endl;
     return 0;

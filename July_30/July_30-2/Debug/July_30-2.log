@@ -1,0 +1,9 @@
+﻿  Sorting.cpp
+D:\CPP Program\CPP_Program\July_30\July_30-2\Sorting.cpp(51,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\CPP Program\CPP_Program\July_30\July_30-2\Sorting.cpp(23,4): warning C4101: 'temp': unreferenced local variable
+D:\CPP Program\CPP_Program\July_30\July_30-2\Sorting.cpp(65): message : see reference to function template instantiation 'int Searching<char>(T [],int,T)' being compiled
+          with
+          [
+              T=char
+          ]
+  July_30-2.vcxproj -> D:\CPP Program\CPP_Program\July_30\Debug\July_30-2.exe

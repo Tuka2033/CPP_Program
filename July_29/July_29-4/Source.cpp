@@ -8,22 +8,26 @@ public:
     //Test *const this;
     Test(void) : number(20) {}
     //Test *const this;
-    void showRecord(void)
+    void showRecord()
     {
         cout << "Number   : " << this->number << endl;
     }
-
-  
-    void display(void)const
+    void set(int i)
     {
-        //Test *const ptr = ( Test *const  )this;
-        Test* const ptr = const_cast<Test* const>(this);
-        ptr->showRecord();
+        number = i;
     }
+  
+    //void display(void)const
+    //{
+    //    //Test *const ptr = ( Test *const  )this;
+    //    Test* const ptr = const_cast<Test* const>(this);
+    //    ptr->showRecord();
+    //} 
 };
 int main()
 {
     const Test t1;
-    t1.display();
+   const_cast<Test&>(t1).set(10);
+   const_cast<Test&>(t1).showRecord();
     return 0;
 }

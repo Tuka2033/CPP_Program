@@ -1,31 +1,23 @@
-#include"Divexp.h"
-cDiv::cDiv()
+#include<iostream>
+using namespace std;
+void Divide(int a, int b)
 {
-	a = 0; b = 0;
-	res = 0;
+	if (b == 0)
+		throw 100;
+	cout << "\n\n\t Result : " << a / b;
 }
-cDiv::cDiv(int x, int y)
+void main()
 {
-	a = x;
-	b = y;
+	int no1, no2;
 	try
 	{
-		if (b == 0)
-		{
-			throw 0;
-		}
-		else
-		{
-			res = a / b;
-			Display();
-		}
-   }
-	catch (int e)
-	{
-		cout << "Division not possible";
+		cout << "\n\n\t Enter Two Nos ";
+		cin >> no1 >> no2;
+		Divide(no1, no2);
 	}
-}
-void cDiv::Display()
-{
-	cout << "DIVISION OF TWO NO IS::" << res;
+	catch (int no)
+	{
+		cout << "\n\n\t ERROR !!!!";
+	}
+	cout << "\n\n\n";
 }

@@ -1,55 +1,54 @@
 #include<iostream>
 using namespace std;
-int Searching(int arr[], int size, int key)
+
+void Search(int a[], int size, int ele)
 {
-	int temp;
-	for (int i = 0; i < size; i++)
+	int found = 0;
+	try
 	{
-		if (arr[i] == key)
+		for (int i = 0; i < size; i++)
 		{
-			return 1;
+			if (a[i] == ele)
+			{
+				found = 1;
+				break;
+			}
+
 		}
+		if (found == 0)
+			throw 100;
 	}
-	return -1;
+	catch (int n)
+	{
+		cout << " Array Element not Availabe  !!! ";
+	}
+
+}
+
+void Print(int a[], int size, int pos)
+{
+	try
+	{
+		if (pos > size)
+			throw 101;
+		cout << "\n\n\t Element : " << a[pos];
+	}
+	catch (int n)
+	{
+		cout << " Array Out of Bound !!! ";
+	}
 }
 void main()
 {
-	int n, s;
-	int arr[10];
-	int key;
-	cout << "Enter size\n";
-	cin >> n;
-	cout << "Enter Array::\n";
-	for (int i = 0; i <n; i++)
-	{
-		cin >> arr[i];
-	}
-	cout << "\n====================================\n";
-	cout << "\nEnter index::";
-	cin >> key;
-	 
-	try
-	{
-		if (key > n)
-		{
-			throw 1;
-		}
-		else
-		{
-			s = Searching(arr, n, key);
-			if (s > 0)
-			{
-				cout << "\nElement is foud....";
-			}
-			else
-			{
-				cout << "\nElement not found...";
-			}
-		}
-	}
-	catch (int e)
-	{
-		cout << "\nArray out of index...........";
-	}
-	cout << "\n\n\n\n";
+	int arr[5] = { 32,54,23,76,65 };
+	int no;
+	cout << "\n\n\t ********* Array Is ********* \n\n";
+	for (int i = 0; i < 5; i++)
+		cout << "   " << arr[i];
+	cout << "\n\n\t Enter Posision to print value ";
+	cin >> no;
+	Print(arr, 5, no);
+	cout << "\n\n\t Enter element to Search ";
+	cin >> no;
+	Search(arr, 5, no);
 }

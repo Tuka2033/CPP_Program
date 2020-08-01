@@ -1,6 +1,4 @@
 ﻿  Divexp.cpp
-D:\CPP Program\CPP_Program\July_31\July_31-3\Divexp.cpp(19,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\CPP Program\CPP_Program\July_31\July_31-3\Divexp.cpp(23,13): warning C4101: 'e': unreferenced local variable
-  main.cpp
-  Generating Code...
+D:\CPP Program\CPP_Program\July_31\July_31-3\Divexp.cpp(10,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\CPP Program\CPP_Program\July_31\July_31-3\Divexp.cpp(18,13): warning C4101: 'no': unreferenced local variable
   July_31-3.vcxproj -> D:\CPP Program\CPP_Program\July_31\Debug\July_31-3.exe

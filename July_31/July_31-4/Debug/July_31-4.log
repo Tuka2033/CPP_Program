@@ -1,5 +1,5 @@
 ﻿  Searching.cpp
-D:\CPP Program\CPP_Program\July_31\July_31-4\Searching.cpp(5,6): warning C4101: 'temp': unreferenced local variable
-D:\CPP Program\CPP_Program\July_31\July_31-4\Searching.cpp(16,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-D:\CPP Program\CPP_Program\July_31\July_31-4\Searching.cpp(50,13): warning C4101: 'e': unreferenced local variable
+D:\CPP Program\CPP_Program\July_31\July_31-4\Searching.cpp(21,13): warning C4101: 'n': unreferenced local variable
+D:\CPP Program\CPP_Program\July_31\July_31-4\Searching.cpp(36,13): warning C4101: 'n': unreferenced local variable
+D:\CPP Program\CPP_Program\July_31\July_31-4\Searching.cpp(42,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
   July_31-4.vcxproj -> D:\CPP Program\CPP_Program\July_31\Debug\July_31-4.exe

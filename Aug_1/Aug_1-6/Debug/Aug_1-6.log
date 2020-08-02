@@ -1,0 +1,6 @@
+﻿  Account.cpp
+D:\CPP Program\CPP_Program\Aug_1\Aug_1-6\Account.cpp(42,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+D:\CPP Program\CPP_Program\Aug_1\Aug_1-6\main.cpp(4,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  Aug_1-6.vcxproj -> D:\CPP Program\CPP_Program\Aug_1\Debug\Aug_1-6.exe

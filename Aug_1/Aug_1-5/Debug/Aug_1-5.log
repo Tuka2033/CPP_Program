@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\CPP Program\CPP_Program\Aug_1\Aug_1-5\main.cpp(3,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  stack.cpp
+  Generating Code...
+  Aug_1-5.vcxproj -> D:\CPP Program\CPP_Program\Aug_1\Debug\Aug_1-5.exe

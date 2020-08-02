@@ -1,0 +1,3 @@
+﻿  file.cpp
+D:\CPP Program\CPP_Program\Aug_1\Aug_1-3\file.cpp(15,21): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+  Aug_1-3.vcxproj -> D:\CPP Program\CPP_Program\Aug_1\Debug\Aug_1-3.exe
